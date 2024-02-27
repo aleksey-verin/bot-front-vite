@@ -19,8 +19,8 @@ function App() {
     <main>
       <Header />
       <Routes>
-        <Route index element={<ProductList />} />
-        <Route path={'form'} element={<Form />} />
+        <Route path={'/bot-front-vite/'} element={<ProductList />} />
+        <Route path={'/bot-front-vite/form'} element={<Form />} />
       </Routes>
     </main>
   )
